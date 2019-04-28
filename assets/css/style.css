@@ -10,6 +10,11 @@ body {
   margin: 0;
   font-family: Jost, sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 
@@ -35,13 +40,19 @@ body {
 
 ::-webkit-scrollbar-track {
 
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #fff;
 
 }
 
 ::-webkit-scrollbar-thumb {
 
   background: #6200ee;
+
+}
+
+h1 {
+
+  font-weight: 400;
 
 }
 
@@ -54,15 +65,6 @@ body {
   padding: 8px 40px 8px 40px;
   top: 0;
   display: table;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  transition: all .3s;
-  -webkit-transition: all .3s;
-
-}
-
-.nav.shadow {
-
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
 
@@ -149,10 +151,8 @@ body {
 
 .nav .menus {
 
-  position: absolute;
-  left: 80vw;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 100%;
+  float: right;
 
 }
 
@@ -162,15 +162,153 @@ body {
   position: relative;
   margin-right: 20px;
   cursor: pointer;
+  padding-top: 17px;
+  height: 100%;
 
 }
+
+.nav .menus .menu span {}
 
 .nav .menus .menu ul {
 
   display: none;
   position: absolute;
-  bottom: 0;
+  top: 32px;
+  padding: 10px;
   background-color: #fff;
   list-style: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+
+}
+
+.nav .menus .menu ul li a {
+
+  text-decoration: none;
+  color: #767676;
+
+}
+
+.hero {
+
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  position: relative;
+
+}
+
+.hero .content {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.hero .content h1 {
+
+  color: #fff;
+  text-align: center;
+  font-size: 3.7em;
+
+}
+
+.hero .scroll-down {
+
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  cursor: pointer;
+
+}
+
+.hero .scroll-down img {
+
+  height: 70px;
+
+}
+
+.about, .news {
+
+  background-color: #fff;
+  padding: 70px 15vw 20px;
+  position: relative;
+
+}
+
+.about h1 {
+
+  font-size: 2.4em;
+
+}
+
+.about p {
+
+  color: #767676;
+
+}
+
+.more-btn {
+
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+
+}
+
+.more-btn i {
+
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+
+}
+
+.more-btn:hover i {
+
+  right: -30px;
+  opacity: 1;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+
+}
+
+.more-btn::after {
+
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  left: 0;
+  opacity: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+
+}
+
+.more-btn:hover::after {
+
+  opacity: 1;
+  width: 100%;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+
+}
+
+.news h1 {
+
+  font-size: 2.4em;
+  text-align: center;
 
 }
