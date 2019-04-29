@@ -313,8 +313,49 @@ h1 {
 
 }
 
-.news .container {
+.news .celebration {
 
-  
+  display: block;
+  margin: 0 auto 45px;
+  width: 35vw;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+
+}
+
+.news .celebration .celbration-img {
+
+  width: 320px;
+  height: 320px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background-size: cover;
+
+}
+
+.news .celebration .celbration-img h1 {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #fff;
+  font-size: 2em;
+  transform: translate(-50%, -50%);
+
+}
+
+.news .celebration .content {
+
+  display: inline-block;
+  vertical-align: top;
+  padding: 35px 0 0 40px;
+  max-width: calc(100% - 400px);
+
+}
+
+.news .celebration .content p {
+
+  margin: 0;
 
 }
