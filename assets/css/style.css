@@ -319,7 +319,7 @@ h1 {
 
   display: block;
   margin: 0 auto 45px;
-  width: 35vw;
+  min-width: 50vw;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
 
@@ -354,6 +354,7 @@ h1 {
   vertical-align: top;
   padding: 35px 0 0 40px;
   max-width: calc(100% - 400px);
+  max-height: 320px;
 
 }
 
