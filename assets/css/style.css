@@ -378,3 +378,19 @@ h1 {
   display: inherit;
 
 }
+
+.politician img {
+
+  margin: 0 auto;
+  width: 300px;
+  display: block;
+  border-radius: 100%;
+
+}
+
+.politician h1 {
+
+  text-align: center;
+  font-size: 2.1em;
+
+}
