@@ -36,6 +36,12 @@ jQuery(function($) {
 
     });
 
+    $(".watermark").click(function() {
+
+      window.location.href = "index";
+
+    });
+
   });
 
 });
