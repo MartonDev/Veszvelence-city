@@ -189,6 +189,16 @@ h1 {
 
   text-decoration: none;
   color: #767676;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+
+}
+
+.nav .menus .menu ul li a:hover {
+
+  color: #4f4f4f;
+  transition: all .3s;
+  -webkit-transition: all .3s;
 
 }
 
@@ -398,5 +408,13 @@ h1 {
 .politician p {
 
   text-align: center;
+
+}
+
+.diagram {
+
+  width: 50vw;
+  margin: 0 auto;
+  display: inherit;
 
 }
