@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Vesz-Velence</title>
+
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon.png"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vesz-Velence hivatalos weboldala">
+    <meta name="theme-color" content="#6200ee">
+
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/photoswipe.css" />
+    <link rel="stylesheet" href="assets/css/default-skin.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="nav" id="nav">
+
+      <div class="watermark">
+
+        <img src="assets/img/icon.png" alt="logo">
+        <h1>Vesz-Velence</h1>
+
+      </div>
+
+      <input id="search" type="search" autocomplete="off" placeholder="Keress a weboldalunkon..." />
+
+      <div class="menus">
+
+        <div class="menu">
+
+          <span>Információk</span>
+
+          <ul>
+
+            <li><a href="onkormanyzat">Önkormányzat</a></li>
+            <li><a href="tortenelem">Történelem</a></li>
+            <li><a href="demografia">Demográfia és gazdaság</a></li>
+            <li><a href="galeria">Galéria</a></li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="hero mini">
+
+      <div class="content">
+
+        <h1>Vesz-Velence</h1>
+
+      </div>
+
+      <div class="scroll-down">
+
+        <img src="assets/img/scrolldown.gif" alt="scrolldown">
+
+      </div>
+
+    </div>
+
+    <div class="about">
+
+      <h1>Galéria</h1>
+
+      <div class="galery">
+
+        <img src="assets/img/galery/1.png" onclick="openImage(0)" alt="photo">
+        <img src="assets/img/galery/2.png" onclick="openImage(1)"alt="photo">
+        <img src="assets/img/galery/3.png" onclick="openImage(2)" alt="photo">
+        <img src="assets/img/galery/4.png" onclick="openImage(3)" alt="photo">
+        <img src="assets/img/galery/5.png" onclick="openImage(4)" alt="photo">
+        <img src="assets/img/galery/6.png" onclick="openImage(5)" alt="photo">
+        <img src="assets/img/galery/7.png" onclick="openImage(6)" alt="photo">
+        <img src="assets/img/galery/8.png" onclick="openImage(7)" alt="photo">
+
+      </div>
+
+    </div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+      <div class="pswp__bg"></div>
+
+      <div class="pswp__scroll-wrap">
+
+        <div class="pswp__container">
+
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+
+          <div class="pswp__top-bar">
+
+            <div class="pswp__counter"></div>
+
+            <button class="pswp__button pswp__button--close" title="Bezárás (Esc)"></button>
+            <button class="pswp__button pswp__button--share" title="Megosztás"></button>
+            <button class="pswp__button pswp__button--fs" title="Teljes képernyő"></button>
+            <button class="pswp__button pswp__button--zoom" title="Nagyítás/Kicsinyítés"></button>
+
+            <div class="pswp__preloader">
+
+              <div class="pswp__preloader__icn">
+
+                <div class="pswp__preloader__cut">
+
+                  <div class="pswp__preloader__donut"></div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+
+            <div class="pswp__share-tooltip"></div>
+
+          </div>
+
+          <button class="pswp__button pswp__button--arrow--left" title="Előző"></button>
+          <button class="pswp__button pswp__button--arrow--right" title="Következő"></button>
+
+          <div class="pswp__caption">
+
+            <div class="pswp__caption__center"></div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/photoswipe.min.js"></script>
+    <script src="assets/js/photoswipe-ui-default.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+
+</html>

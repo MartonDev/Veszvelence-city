@@ -432,6 +432,21 @@ h1 {
 
 }
 
+.galery {
+
+  width: 100%;
+
+}
+
+.galery img {
+
+  width: 30%;
+  cursor: pointer;
+  vertical-align: top;
+  margin-bottom: 20px;
+
+}
+
 @media screen and (max-width: 790px) {
 
   body {
