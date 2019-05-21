@@ -56,7 +56,8 @@ function openImage(number) {
 
       src: "assets/img/galery/1.png",
       w: 600,
-      h: 400
+      h: 400,
+      title: "A hotel étterme"
 
     },
 
@@ -64,7 +65,8 @@ function openImage(number) {
 
       src: "assets/img/galery/2.png",
       w: 600,
-      h: 400
+      h: 400,
+      title: "A hotel"
 
     },
 
@@ -72,7 +74,8 @@ function openImage(number) {
 
       src: "assets/img/galery/3.png",
       w: 600,
-      h: 400
+      h: 400,
+      title: "Vesz Sound"
 
     },
 
@@ -80,7 +83,8 @@ function openImage(number) {
 
       src: "assets/img/galery/4.png",
       w: 600,
-      h: 400
+      h: 400,
+      title: "Vesz Sound"
 
     },
 
@@ -88,7 +92,8 @@ function openImage(number) {
 
       src: "assets/img/galery/5.png",
       w: 600,
-      h: 400
+      h: 400,
+      title: "A munka vására"
 
     },
 
@@ -96,7 +101,8 @@ function openImage(number) {
 
       src: "assets/img/galery/6.png",
       w: 600,
-      h: 400
+      h: 400,
+      title: "A város közponja (vár)"
 
     },
 
@@ -104,7 +110,8 @@ function openImage(number) {
 
       src: "assets/img/galery/7.png",
       w: 600,
-      h: 400
+      h: 400,
+      title: "Bérelhető ház"
 
     },
 
@@ -112,7 +119,8 @@ function openImage(number) {
 
       src: "assets/img/galery/8.png",
       w: 600,
-      h: 400
+      h: 400,
+      title: "Bérelhető luxusház"
 
     }
 
