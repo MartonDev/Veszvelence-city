@@ -431,3 +431,74 @@ h1 {
   width: 200px;
 
 }
+
+@media screen and (max-width: 790px) {
+
+  body {
+
+    background-size: 1920px 1080px;
+
+  }
+
+  .nav .menus {
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+  }
+
+  .nav .watermark h1 {
+
+    font-size: 1.2em;
+
+  }
+
+  .nav input[type=search] {
+
+    display: none;
+
+  }
+
+  .hero {
+
+    height: 50vh;
+
+  }
+
+  .hero .content h1 {
+
+    font-size: 3em;
+
+  }
+
+  .news .celebration .celbration-img {
+
+    width: 100%;
+
+  }
+
+  .news .celebration .content {
+
+    max-width: 75%;
+    max-height: unset;
+    padding-bottom: 20px;
+
+  }
+
+  .map img {
+
+    width: 70vw;
+
+  }
+
+  .diagram {
+
+    width: 75vw !important;
+
+  }
+
+}
