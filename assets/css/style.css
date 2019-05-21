@@ -418,3 +418,10 @@ h1 {
   display: inherit;
 
 }
+
+.politician .diagram {
+
+  width: 500px;
+  border-radius: 0;
+
+}
