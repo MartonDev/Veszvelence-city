@@ -438,12 +438,27 @@ h1 {
 
 }
 
-.galery img {
+.galery .galery-element {
 
   width: 30%;
   cursor: pointer;
   vertical-align: top;
-  margin-bottom: 20px;
+  margin-bottom: 28.5px;;
+  margin-right: 28.5px;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  opacity: 1;
+  transition: all .3s;
+  -webkit-ransition: all .3s;
+
+}
+
+.galery .galery-element:hover {
+
+  opacity: .75;
+  transition: all .3s;
+  -webkit-ransition: all .3s;
 
 }
 
@@ -513,6 +528,13 @@ h1 {
   .diagram {
 
     width: 75vw !important;
+
+  }
+
+  .galery .galery-element {
+
+    width: 100%;
+    display: block;
 
   }
 

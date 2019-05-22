@@ -4,6 +4,8 @@ jQuery(function($) {
 
     $("#nav").fadeOut(30);
 
+    $(".galery .galery-element").height($(".galery .galery-element").width());
+
     $(window).scroll(function() {
 
       if($(window).scrollTop() > 40) {

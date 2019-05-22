@@ -79,18 +79,7 @@
 
       <h1>Galéria</h1>
 
-      <div class="galery">
-
-        <img src="assets/img/galery/1.png" onclick="openImage(0)" alt="photo">
-        <img src="assets/img/galery/2.png" onclick="openImage(1)"alt="photo">
-        <img src="assets/img/galery/3.png" onclick="openImage(2)" alt="photo">
-        <img src="assets/img/galery/4.png" onclick="openImage(3)" alt="photo">
-        <img src="assets/img/galery/5.png" onclick="openImage(4)" alt="photo">
-        <img src="assets/img/galery/6.png" onclick="openImage(5)" alt="photo">
-        <img src="assets/img/galery/7.png" onclick="openImage(6)" alt="photo">
-        <img src="assets/img/galery/8.png" onclick="openImage(7)" alt="photo">
-
-      </div>
+      <div class="galery"></div>
 
     </div>
 
@@ -161,6 +150,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script>
+
+      for(var i = 0; i < 7; i++) {
+
+        $(".galery").append('<div class="galery-element" onclick="openImage(' + i + ')" style="background-image:url(assets/img/galery/' + (i + 1) + '.png);"></div>');
+
+      }
+
+    </script>
 
   </body>
 
