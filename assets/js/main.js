@@ -44,49 +44,6 @@ jQuery(function($) {
 
     });
 
-    var searchValue = "";
-
-    setInterval(function() {
-
-      if(searchValue == "") {
-
-        $(".search-results").css("display", "none");
-
-      }else {
-
-        $(".search-results").css("display", "block");
-
-      }
-
-      if(searchValue != $("#search").val()) {
-
-        searchValue = $("#search").val();
-        var pages = ["index", "galeria", "demografia", "galeria", "onkormanyzat", "tortenelem"];
-
-        for(i = 0; i < pages.length; i++) {
-
-          $.get(pages[i], function(data) {
-
-          	var siteContent = data.replace(/<[^>]*>/g, "");
-
-            if(siteContent.toLowerCase().includes(searchValue.toLowerCase()) || siteContent.toLowerCase().replace(/\s/g, '').includes(searchValue.toLowerCase())) {
-
-              $(".search-results a[href=" + pages[i] + "]").css("display", "block");
-
-            }else {
-
-              $(".search-results a[href=" + pages[i] + "]").css("display", "none");
-
-            }
-
-          }, "text");
-
-        }
-
-      }
-
-    }, 100);
-
   });
 
 });

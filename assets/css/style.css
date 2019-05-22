@@ -462,33 +462,6 @@ h1 {
 
 }
 
-.search-results {
-
-  position: fixed;
-  top: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 100000;
-  overflow-y: auto;
-
-}
-
-.search-results a {
-
-  background-color: #fff;
-  text-decoration: none;
-  color: #000;
-  width: 50vw;
-  padding: 15px 30px;
-  font-size: 24px;
-  margin-bottom: 15px;
-  display: block;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
-  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
-
-}
-
 @media screen and (max-width: 790px) {
 
   body {
